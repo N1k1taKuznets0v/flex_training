@@ -171,6 +171,99 @@ body {
   color: #333333;
 }
 
+.wrapper .content .vertical {
+  padding: 50px 0;
+}
+
+.wrapper .content .vertical .vertical__title {
+  text-align: center;
+  margin: 0px 0px 30px 0;
+}
+
+.wrapper .content .vertical .vertical__body {
+  max-width: 990px;
+  margin: 0px auto;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -22.5px;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  padding: 0 22.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column .vertical__item {
+  background-color: #445162;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #445162;
+  padding: 0px 0px 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column .vertical__item .vertical__subtitle {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 12px 0px;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column .vertical__item .vertical__label {
+  text-align: center;
+  background-color: #fff;
+  padding: 15px 0;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #445162;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column .vertical__item .vertical__text {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column .vertical__item .vertical__text p {
+  margin: 0px 0px 15px 0px;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column .vertical__item .vertical__text p:last-child {
+  margin: 0;
+}
+
+.wrapper .content .vertical .vertical__body .vertical__row .vertical__column .vertical__item .vertical__btn {
+  display: block;
+  margin: 0 20px;
+  height: 40px;
+  background-color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
 .wrapper .footer {
   background-color: #f5f5f5;
 }
