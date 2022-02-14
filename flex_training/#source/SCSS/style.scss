@@ -51,8 +51,6 @@ body {
                   }
                }
             }
-            .hi__image {
-            }
          }
       }
    
@@ -189,6 +187,19 @@ body {
                         text-align: center;
                         border-radius: 5px;
                         font-size: 18px;
+                        transition: all 1s ease 0s;
+                     }
+                     .vertical__btn:hover {
+                        display: block;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 30%;
+                        font-size: 25px;
+                        background-color: silver;
+                        color: gold;
+                        font-weight: bold;
+                     }
                      }
                   }
                }
@@ -212,7 +223,7 @@ body {
          }
       }
    }
-}
+
 
 
 
